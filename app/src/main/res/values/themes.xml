@@ -1,0 +1,37 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="AppBaseTheme" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Colores principales de la aplicación -->
+        <item name="android:windowBackground">@color/white</item>
+
+        <!-- Color primario utilizado en la interfaz -->
+        <item name="colorPrimaryDark">@color/white</item>
+        <!-- Configura el modo claro para el texto en la barra de estado -->
+        <item name="android:windowLightStatusBar">true</item>
+
+    </style>
+
+    <style name="Theme.MiApp" parent="AppBaseTheme">
+
+    </style>
+
+    <!-- Estilo personalizado para el calendario -->
+    <style name="miCalendario" parent="Theme.AppCompat">
+        <!-- Color para la bola selectora y el día actual -->
+        <item name="colorControlActivated">@color/blue_700</item>
+        <!-- Color principal para el texto -->
+        <item name="android:textColorPrimary">@color/black</item>
+    </style>
+
+    <style name="miCalendarioDiasMes" parent="android:TextAppearance.DeviceDefault.Medium">
+        <!-- Color del texto para días del selector -->
+        <item name="android:textColor">@drawable/selector_fecha</item>
+
+    </style>
+
+    <style name="miCalendarioDiasSemana" parent="android:TextAppearance.DeviceDefault.Medium">
+        <!-- Color texto para días semana -->
+        <item name="android:textColor">@color/gris</item>
+    </style>
+
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Tarea3_24_25</string>
+    <string name="eslogan">La app de intercambio de bicicletas</string>
+    <string name="direccionpostal">Av. Real Fábrica de Sedas, s/n</string>
+    <string name="email">ilucast@mybike.com</string>
+    <string name="logo">logo</string>
+    <string name="login">Login</string>
+    <string name="iesribera">iesribera</string>
+    <string name="img_email">img_email</string>
+    <string name="resultado">Selecciona fecha para ver\n bicicletas disponibles</string>
+    <string name="fragmentoCalendario">Selecciona una fecha</string>
+    <string name="stringfecha">Fecha: %d/%d/%d</string>
+    <string name="buscar">Buscar</string>
+    <string name="ciudad">Ciudad</string>
+    <string name="descripcion">Descripcion</string>
+    <string name="direccion">Direccion</string>
+    <string name="due_o">Dueño</string>
+    <string name="descripcion_imagen_bici">Imagen bici</string>
+    <string name="email_imagen">Imagen Email</string>
+    <string name="email_content">
+        Dear Mr/Mrs %s:\n
+          I\'d like to use your bike at %s (%s)\n
+          for the following date: %s\n\n
+          Can you confirm its availability?\n
+          Kindest regards
+    </string>
+    <string name="lista_bicis">Lista de bicis disponibles</string>
+</resources>
